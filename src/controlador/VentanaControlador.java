@@ -100,7 +100,7 @@ public class VentanaControlador implements ActionListener {
         if (pd.actualizarDatos(nuevoNombre, nuevoPrecio, nuevaDescripcion, nombreProductoActual) == true) {
             JOptionPane.showMessageDialog(null, "Actualizado");
         } else {
-            JOptionPane.showMessageDialog(null, "Error en la actualización, el usuario no existe");
+            JOptionPane.showMessageDialog(null, "Error en la actualización, el producto no existe");
         }
         //Dejar los campos vacidos despues de realizar la accion 
         view.nombreTX.setText("");
