@@ -44,9 +44,9 @@ public class VentanaControlador implements ActionListener {
         p.setDescripcion(view.descripcionTX.getText());
         //Los datos del objeto tipo Producto se les entrega a un objeto tipo ProductoDao para ser almacenados en la base de datos
         if (pd.insertarDatos(p.getNombre(), p.getPrecio(), p.getDescripcion())) {
-            System.out.println("ingresado con exito");
+            JOptionPane.showMessageDialog(null, "Ingresado con exito");
         } else {
-            System.out.println("UPS!");
+            JOptionPane.showMessageDialog(null, "Ups");
         }
         //Dejar los campos vacidos despues de realizar la accion 
         view.nombreTX.setText("");
