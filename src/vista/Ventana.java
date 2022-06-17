@@ -71,7 +71,7 @@ public class Ventana extends JFrame {
         this.eliminarBTN.setActionCommand("eliminar");
         this.verBTN.addActionListener(vc);
         this.verBTN.setActionCommand("ver");
-        
+
     }
 
     public void agregarComponentes() {

@@ -14,8 +14,9 @@ import java.util.ArrayList;
 import modelo.Trabajador;
 
 /**
- *
- * @author david
+ * Felipe Alveal Oliva - Jefe Equipo /María José Arias Valenzuela /José Barra
+ * Reyes /Juan Pablo Beltrán Oñate /David Bravo Bachler /Lucianno Valdebenito
+ * San Martín
  */
 public class TrabajadorDao {
     //Atributos que establecen conexión y ejecución de query sql

@@ -17,8 +17,9 @@ import modelo.Producto;
 import modelo.Trabajador;
 
 /**
- *
- * @author david
+ * Felipe Alveal Oliva - Jefe Equipo /María José Arias Valenzuela /José Barra
+ * Reyes /Juan Pablo Beltrán Oñate /David Bravo Bachler /Lucianno Valdebenito
+ * San Martín
  */
 public class VentanaLogin extends JFrame {
 
