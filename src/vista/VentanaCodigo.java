@@ -6,8 +6,9 @@
 package vista;
 
 /**
- *
- * @author david
+ * Felipe Alveal Oliva - Jefe Equipo /María José Arias Valenzuela /José Barra
+ * Reyes /Juan Pablo Beltrán Oñate /David Bravo Bachler /Lucianno Valdebenito
+ * San Martín
  */
 public class VentanaCodigo extends javax.swing.JFrame {
 
@@ -155,7 +156,6 @@ public class VentanaCodigo extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel descripcionLB;

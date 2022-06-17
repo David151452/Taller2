@@ -15,8 +15,9 @@ import modelo.Producto;
 import vista.Ventana;
 
 /**
- *
- * @author david
+ * Felipe Alveal Oliva - Jefe Equipo /María José Arias Valenzuela /José Barra
+ * Reyes /Juan Pablo Beltrán Oñate /David Bravo Bachler /Lucianno Valdebenito
+ * San Martín
  */
 public class VentanaControlador implements ActionListener {
 
@@ -31,12 +32,11 @@ public class VentanaControlador implements ActionListener {
         this.p = p;
         this.pd = pd;
     }
-    
+
     /*public void iniciar() {
         view.setTitle("Vista");
         view.setLocationRelativeTo(null);
     }*/
-    
     public void insertar() {
         //Al objeto tipo producto se le instancia las variables que se obtienen desde los JTextfield
         p.setNombre(view.nombreTX.getText());

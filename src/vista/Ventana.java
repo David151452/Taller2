@@ -17,8 +17,9 @@ import javax.swing.JTextField;
 import modelo.Producto;
 
 /**
- *
- * @author david
+ * Felipe Alveal Oliva - Jefe Equipo /María José Arias Valenzuela /José Barra
+ * Reyes /Juan Pablo Beltrán Oñate /David Bravo Bachler /Lucianno Valdebenito
+ * San Martín
  */
 public class Ventana extends JFrame {
 
@@ -38,7 +39,7 @@ public class Ventana extends JFrame {
     public JButton verBTN;
     public JTable tabla;
     public JScrollPane scroll;
-    
+
     public Ventana(Producto p, ProductoDao pd) {
         //Nombre de la vista
         super("VentanaInventario");
@@ -59,7 +60,7 @@ public class Ventana extends JFrame {
         this.scroll = new JScrollPane();
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.agregarComponentes();
-        
+
         VentanaControlador vc = new VentanaControlador(this, p, pd);
         //Se le entrega las funcionalidades a los botones mediante el ActionListener que será realiza en la clase VentanControlador
         this.ingresarBTN.addActionListener(vc);
@@ -71,7 +72,7 @@ public class Ventana extends JFrame {
         this.verBTN.addActionListener(vc);
         this.verBTN.setActionCommand("ver");
     }
-    
+
     public void agregarComponentes() {
         tabla.setModel(new javax.swing.table.DefaultTableModel(
                 new Object[][]{},
@@ -143,7 +144,7 @@ public class Ventana extends JFrame {
                                         .addComponent(scroll, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -154,7 +155,7 @@ public class Ventana extends JFrame {
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
-        
+
         pack();
     }
 }

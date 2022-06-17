@@ -6,8 +6,9 @@
 package modelo;
 
 /**
- *
- * @author david
+ * Felipe Alveal Oliva - Jefe Equipo /María José Arias Valenzuela /José Barra
+ * Reyes /Juan Pablo Beltrán Oñate /David Bravo Bachler /Lucianno Valdebenito
+ * San Martín
  */
 public class Producto {
 
@@ -23,11 +24,11 @@ public class Producto {
         this.precio = precio;
         this.descripcion = descripcion;
     }
-    
+
     //Constructor vacido para poder instanciar un objeto tipo producto sin atributos
     public Producto() {
     }
-    
+
     //Setters and getters
     public int getCodigo() {
         return codigo;
